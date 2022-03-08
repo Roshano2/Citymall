@@ -1,0 +1,230 @@
+:root{
+    --primary-color:#484FA2;
+    --secondary-color:#DADCEC;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "montserrat",sans-serif;
+    color: black;
+    
+}
+
+.nav{
+    background: white;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+     
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-content .logo img{
+    height: 30px;
+}
+
+.leftnav{
+    margin: 10px 100px;
+}
+
+.leftnav .inside-leftnav{
+    padding-left: 5em;
+}
+
+.rightnav{
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.inside-rightnav{
+    padding-right: 5em;
+}
+.rightnav i{
+    padding-right: 5em;
+}
+
+/* downnav */
+
+.downnav {
+    background-image: linear-gradient(rgba(3, 3, 77, 0.411),rgba(2, 2, 73, 0.425)),url("images/background1.png");
+    height: 100vh;
+}
+
+.sideheading{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: -0;
+}
+
+.sideheading h1{
+
+    font-size: 4em;
+    color: white;
+}
+
+.shopnow{
+    position: absolute;
+    margin: 2em 0;
+    padding: 10px 20px;
+    background: white;
+    color: var(--primary-color);
+    font-size: 2em;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.centerline img{
+    height: 100vh;
+    margin-left: 50%;
+}
+
+.contact{
+    position: absolute;
+    right: 12em;
+    bottom: 5em;
+    text-align: right;
+}
+
+.contact p{
+    color: white;
+    font-size: 1.3em;
+}
+.contact i{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 1em;
+    padding-left: 1.5em;
+    cursor: pointer;
+}
+
+.offers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(1, 1, 54, 0.315),rgba(2, 2, 51, 0.356)),url("images/floor.png");
+    height: 35em;
+}
+
+.offers h2{
+    color: white;
+    font-size: 32px;
+    font-family: 'Cera Pro';
+    text-align: center;
+    background: rgba(56, 56, 56, 0.281);
+    border-radius: 50%;
+    margin: 0 2.5em;
+}
+
+.support{
+    padding: 3em 2em;
+}
+
+.money{
+    padding: 3em 1em;
+}
+
+.zero{
+    padding: 2.5em 2em;
+}
+
+/* POPULAR BRANDS */
+
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:4em 0;
+}
+
+.brands h1{
+    text-align: center;
+    color: var(--primary-color);
+    font-family: 'Recoleta DEMO';
+    font-size: 3em;
+}
+
+.topalign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.topalign img , .bottomalign img{
+    margin: 1em 4.2em;
+    background: var(--secondary-color);
+    height: 12em;
+    width: 12em;
+    padding: 3em;
+    border-radius: 1em;
+}
+
+.bottomalign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+.endtext{
+    margin: 4em 0;
+    background-image: linear-gradient(rgba(0, 0, 139, 0.13),rgba(0, 0, 139, 0)),url("images/abstract.png");
+    height: 35em;
+}
+.join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join h2{
+    margin: 1.5em 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: 'Recoleta DEMO';
+    font-weight: 200;
+}
+
+.contactus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactus a{
+    color: white;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 3em;
+    padding: 1em 2em;
+    margin-bottom: 3em;
+}
+
+.credits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits p{
+    font-size: 1.5em;
+}
+
+.credits img{
+    align-items: center;
+    height: 50px;
+}
+
+
+
