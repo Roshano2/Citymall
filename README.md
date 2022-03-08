@@ -12,7 +12,7 @@
  -Stackoverflow
  -W3schools
 
- landing page :
+ landing page : ![landingpage.png](https://github.com/Roshano2/Citymall/blob/main/images/landing%20page.png?raw=true)
 
  
 
